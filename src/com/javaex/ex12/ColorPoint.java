@@ -34,8 +34,9 @@ public class ColorPoint extends Point {
 	}
 	
 	//메소드 일반
+	//메소드 오버라이딩(부모 클래스의 메소드와 같은 이름으로 자식 클래스에 메소드 재작성)
 	public void showInfo() {
-		System.out.println("color:"+color);
+		System.out.println("x="+x+" y="+y+" color:"+color);
 		System.out.println("");
 	}
 
